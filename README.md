@@ -7,19 +7,19 @@ This project includes Docker installation for Redis and uses gin-contrib/session
 
 ## Installation:
 
-### 1. Start the services using Docker Compose:
+**1. Start the services using Docker Compose:**
 
 ```bash
 docker-compose up -d
 ```
 
-### 2. Install the Go dependencies:
+**2. Install the Go dependencies:**
 
 ```bash
 go mod download
 ```
 
-### 3. Start the project with Air for hot reloading:
+**3. Start the project with Air for hot reloading:**
 
 ```bash
 air
