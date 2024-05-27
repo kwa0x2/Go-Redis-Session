@@ -3,9 +3,9 @@ package main
 import (
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
-	"github.com/kwa0x2/go-redis/controller"
-	"github.com/kwa0x2/go-redis/middleware"
-	"github.com/kwa0x2/go-redis/utils"
+	"github.com/kwa0x2/go-redis-session/controller"
+	"github.com/kwa0x2/go-redis-session/middleware"
+	"github.com/kwa0x2/go-redis-session/utils"
 )
 
 func main() {

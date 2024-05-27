@@ -1,4 +1,4 @@
-module github.com/kwa0x2/go-redis
+module github.com/kwa0x2/go-redis-session
 
 go 1.21.5
 
