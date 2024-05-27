@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  redis:
+    image: redis:latest
+    restart: always 
+    # You can change the local Redis port by modifying the left port section
+    ports:
+      - "6380:6379"
+    command: ["redis-server", "--requirepass", "redispassword"]
+    volumes:
+      - redis_data:/data
+
+volumes:
+  redis_data:
