@@ -1,3 +1,6 @@
+[![Go](https://github.com/kwa0x2/Go-Redis-Session/actions/workflows/go.yml/badge.svg)](https://github.com/kwa0x2/Go-Redis-Session/actions/workflows/go.yml)
+
+
 # Go Redis Session API Example
 
 This project includes Docker installation for Redis and uses gin-contrib/sessions for Redis session management. The project contains functionality for setting session, clearing session, and authentication middleware.
