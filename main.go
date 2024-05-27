@@ -15,7 +15,7 @@ func main() {
 	// The name of your cookie is "connect.sid"
 	router.Use(sessions.Sessions("connect.sid", store))
 
-	sessionRoutes:=router.Group("/api/sessions")
+	sessionRoutes:=router.Group("/api/session")
 	sessionRoutes.GET("set", controller.SetSessionExample)
 	sessionRoutes.GET("clear", controller.ClearSessionExample)
 	sessionRoutes.GET("auth",middleware.SessionAuthMiddleware(), controller.AuthSessionExample)
